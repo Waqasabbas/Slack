@@ -1,0 +1,198 @@
+/* Write all your CSS here */
+/* Please indent properly */
+/* Please use only lower-case letters */
+/* Your webpage should be 100% responsive!!! */
+body{
+    margin: 0;
+    padding: 0;
+}
+main{
+    display: flex;
+    flex-direction: row;
+}
+.sidebar{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 210px;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color:#390b39;
+  overflow-x: hidden;
+  padding-top: 15px;
+  color: #ffffff;
+}
+.profile{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    justify-content: space-between;
+}
+
+h3 i{
+    color: #ffffff;
+    opacity: 0.6;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.infobar p{
+    opacity: 0.6;
+    cursor: pointer;
+}
+.infobar:hover > p{
+    opacity: unset;
+}
+.profile:hover > h3 i{
+    opacity: unset;
+}
+.infobar p i{
+    color: green;
+}
+.profile{
+    opacity: unset;
+}
+#bell{
+    padding-top: 1em;
+    font-size: 25px;
+    opacity: 0.6;
+    padding-left: 2em;
+}
+#bell:hover{
+    opacity: unset;
+    cursor: pointer;
+}
+.infobar{
+    display: flex;
+    flex-direction: column;
+}
+.ecoenergy{
+    justify-content: flex-end;
+}
+#text{
+    color: #ffffff;
+    opacity: 0.5;
+    margin: 0.5em;
+}
+.t{
+    width: 50px;
+    border: 20px solid;
+    color: #ffffff;
+    background-color: #0000;
+}
+.infobar input{
+    background-color: #2a082a;
+    border-style: none;
+    height: 50px;
+    padding: 1em;
+    color: white;
+    border-radius: 20%;
+}
+h4{
+    opacity: 0.6;
+    padding: 1em;
+    cursor: pointer;
+}
+.list{
+    display: flex;
+    flex-direction: row;
+    opacity: 0.6;
+    justify-content: space-between;
+}
+.list i{
+    opacity: 0.5;
+    margin-top: 15px;
+}
+.list > #list_heading:hover{
+    opacity: unset;
+    cursor: pointer;
+}
+.list i:hover{
+    opacity: 1;
+}
+.items li{
+    list-style: none;
+    opacity: 0.6;
+    margin-top: 0.5em;
+}
+.items:nth-child(2){
+    opacity: unset;
+}
+.items i{
+    font-size: 10px;
+}
+.items a{
+    color: #ffffff;
+    text-decoration: none;
+}
+#strong{
+    opacity: unset;
+}
+.items  #campers{
+    background-color: #0077ff;
+    opacity: unset;
+}
+.items li:hover{
+    background-color: #2a082a;
+}
+.messages a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.messages #green i{
+    color: green;
+    font-size: 10px;
+}
+.messages i{
+    font-size: 10px;
+}
+.content{
+    color: #000000;
+    margin-left: 15em;
+      width: 100%;
+}
+ .upperPart{
+    display: flex;
+    justify-content: space-between ;
+}
+.upperPart a{
+    color: #000000;
+    font-weight: 800;
+    text-decoration: none;
+}
+.more{
+    margin: 1em;
+}
+.more input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    padding: 12px 20px 12px 40px;
+    transition: width 0.4s ease-in-out;
+  }
+  .more input[type=text]:focus {
+    width: 100%;
+  }
+  .more .fa-phone{
+      opacity: 0.2;
+  }
+  .more .fa-exclamation-circle:hover{
+        color: #0077ff;
+  }
+  .more .fa-cog:hover{
+      color: #0077ff;
+  }
+  .more .fa-at:hover{
+      color: #ff0000;
+  }
+  .more .fa-star:hover{
+      color: #ffff00;
+  }
+  .more .fa-ellipsis-v:hover{
+      color: #0077ff;
+  }
